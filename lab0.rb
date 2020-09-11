@@ -6,6 +6,5 @@
 # Author : Yixing Ma
 
 def mfp(m)
-
-
+  puts (1..m).map{|i| i.to_s.chars.map(&:to_i).select{|v| v>0}.inject(&:*) }.inject(&:+)
 end
