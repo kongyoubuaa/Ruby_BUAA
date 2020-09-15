@@ -45,4 +45,3 @@ def mfp(m)
 
 end
 
-mfp(6)
